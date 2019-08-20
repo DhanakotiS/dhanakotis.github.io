@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8" />
@@ -6,18 +6,19 @@
 	<title>PortFolio | Dhanakoti S</title>
 	<link rel="icon" type="image/ico" href="imgs/sd2.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="webdesign, portfolio, webdesigner portfolio, developer portfolio, student, computerscience student, java developer, computer science">
+	<meta name="Description" content="Portfolio of Dhanakoti, a final year Computer Science and Engineering Student with enthusiasm to learn about new technologies">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Antic|Metrophobic|Saira|Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="canonical" href="https://dhanakoti.tk" />
 	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script>
-		document.addEventListener('contextmenu', event => event.preventDefault());
-	</script>	
+		
 </head>
 <body>
 
@@ -51,13 +52,13 @@
 				<br/>
 				<img class="responsive-img img-fluid" src="imgs/openp.png" alt="logoimage">
 				<h1 class="designation" style="font-size:50px;">I'm Dhanakoti</h1>
-				<h5 class="designation" style="font-size:30px;">and i am a <span style="font-size: 30px;"><b>CS Engineer</b></span></h5>
+				<h5 class="designation" style="font-size:30px;" id="aboutme">and i am a <span style="font-size: 30px;"><b>CS Engineer</b></span></h5>
 				<br/>
 			</div>
 		</div>
 
 <!--About-->
-		<div class="row" id="aboutme">
+		<div class="row" >
 			<div class="explore col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<h1 style="text-align:center;">ABOUT ME</h1>
 				
@@ -73,9 +74,11 @@
 				<img src="imgs/self1.JPG" class="persona img-thumbnail" height="580" width="380" alt="photo">
 			</div>
 		</div>
+		<div class="col-lg-12 col-xs-12" style="height: 7vh;" id="skills">
+		</div>
 <!--Progress Bar-->
 		<div class="row">
-			<div class="explorer col-lg-6 col-md-12 col-sm-12 col-xs-12" id="skills">
+			<div class="explorer col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
 				<h3 class="progressbar-title">C</h3>
             	<div class="progress">
@@ -107,12 +110,12 @@
                 	<div class="progress-bar" style="width: 15%; background: #9c27b0;"><span style="color: #9c27b0;">15%</span></div>
                 </div>
 
-				<h3 class="progressbar-title">Python</h3>
+				<h3 class="progressbar-title">PYTHON</h3>
             	<div class="progress">
                 	<div class="progress-bar" style="width: 30%; background: rgb(209, 90, 245);"><span style="color: #82589F;">30%</span></div>
 				</div>
 				
-				<h3 class="progressbar-title">Perl</h3>
+				<h3 class="progressbar-title">PERL</h3>
             	<div class="progress">
                 	<div class="progress-bar" style="width: 35%; background: rgb(34, 69, 136);"><span style="color: #82589F;">35%</span></div>
                 </div>
@@ -226,7 +229,7 @@
 				</div>
 
 				<!--Hotel Management System-->
-				<button type="button" class="btn btn-lg mdbtn" data-toggle="modal" data-target="#hms"><img src="imgs/dgct.png" class="img-fluid modimg">Hotel Management System using Perl MVC</button>
+				<button type="button" class="btn btn-lg mdbtn" data-toggle="modal" data-target="#hms"><img src="imgs/dgct.png" class="img-fluid modimg">Hotel Management System using Perl</button>
 				<div class="modal fade" id="hms" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header">
 							<h5 class="modal-title" id="ModalLabel">HMS</h5>
@@ -257,12 +260,12 @@
 			<div class="row">
 				<div class="contacts col-lg-4 col-md-6 col-sm-12 col-xs-12 py-4">
 					<p>Mail:</p>
-					<h3 class="mailid">dhanakoti@outlook.com</h3>
+					<h3 class="mailid"><a href="mailto:dhanakoti@outlook.com" style="color: white;">dhanakoti@outlook.com</a></h3>
 				</div>
 				<div class="contacts col-lg-4 col-md-6 col-sm-12 col-xs-12 py-4">
 					<p>Getting Social!</p>
 						<a title="Twitter" href="https://twitter.com/Dhanakoti_S" target="_blank"><i class="fab fa-twitter"></i></a>
-						<a title="Linkedin" href="https://www.linkedin.com/in/dhanakoti-s/" target="_blank"><i class="fab fa-linkedin"></i></a>
+						<a title="Linkedin" href="https://www.linkedin.com/in/dhanakoti-s" target="_blank"><i class="fab fa-linkedin"></i></a>
 						<a title="Instagram" href="https://www.instagram.com/_kodi_s_/" target="_blank"><i class="fab fa-instagram"></i></a>
 						<a title="Github" href="https://github.com/Kotidhana" target="_blank"><i class="fab fa-github"></i></a>
 				</div>
@@ -292,12 +295,16 @@
 		});
 		});
 
+
 		$('a[href*=#]').click(function(event){
 		$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
-		}, 500);
+		}, 300);
 		event.preventDefault();
 		});
+
+		document.addEventListener('contextmenu', event => event.preventDefault());
+
 	</script>
 </body>
 </html>
