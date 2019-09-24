@@ -1,5 +1,6 @@
 @font-face{
     font-family: "Gilroy";
+    font-display: auto;
     src: url("imgs/GilroyL.otf")
 }
 *{
@@ -182,7 +183,7 @@
     background-color: #0253B3;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 5px 0px;
-    margin: 2px;    
+    margin: 2px;
     color: white;
 }
 .fab{
