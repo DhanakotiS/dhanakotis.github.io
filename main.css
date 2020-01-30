@@ -20,12 +20,12 @@
     position: absolute;
     top: 48%;
     left: 48%;
-    width: 4.5vw;
+    width: 70px;
     text-align: center;
 }
 .spinner > div {
-    width: 2.4vh;
-    height: 2.4vh;
+    width: 18px;
+    height: 18px;
     background-color: #0253B3;
     border-radius: 100%;
     display: inline-block;
@@ -49,7 +49,7 @@
     40% {-webkit-transform: scale(1.0);transform: scale(1.0);}
 }
 ::-webkit-scrollbar{
-    width: 1vh;
+    width: 7px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #0253B3;
@@ -58,25 +58,25 @@
     background-color: rgba(7, 106, 226, 0.671);
 }
 .navbar{
-    padding: 0.8vw 2vh;
+    padding: 5px 18px;
 }
 .navbar-brand{
-    font-size: 2.5vw;
+    font-size: 40px;
 }
 .responsive-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding : 1.5vh 0;
+    padding : 1vh 0;
 }
 .designation{
     display: block;
     text-align: center;
-    padding-bottom: 3vh;
+    padding-bottom: 10px;
 }
 .navbar-nav a{
     display: inline-block;
-    font-size: 3vh;
+    font-size: 25px;
     text-align: center;
 }
 .navbar-nav a:hover{
@@ -87,36 +87,36 @@
 }
 .para{
     text-align: justify;
-    font-size: 1.3vw;
-    letter-spacing: 0.13vh;
-    line-height: 2vw;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 32px;
 }
 .explore{
     background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795));
     color: white;
-    border-radius: 0 1.3vw 0 1.3vw;
-    padding: 1.3vw;
-    box-shadow: 1.3vh 1.3vw 4vh -0.6vh rgb(73, 157, 253);
+    border-radius: 0px 20px 0px 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px -8px rgb(73, 157, 253);
 }
 .explorer{
-    padding: 3.3vh;
-    padding-bottom: 4vh;
+    padding: 25px;
+    padding-bottom: 30px;
 }
 .persona{
     display: block;
-    border-radius: 1.3vh;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 .progressbar-title{
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.15vw;
-    padding-top: 1.3vh;
-    padding-bottom: 1.3vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .progress{
-    height: 0.53vh;
+    height: 4px;
     box-shadow: none;
     overflow: visible;
     background-color: rgba(179, 178, 178, 0.3);
@@ -124,16 +124,16 @@
 .progress .progress-bar{
     position: relative;
     animation: animate-positive 2s;
-    border-radius: 0 1.3vh 1.3vh 0;
+    border-radius: 0px 10px 10px 0px;
 }
 .progress .progress-bar span{
     position: absolute;
-    top: -1.3vw;
+    top: -20px;
     right: 0;
-    padding: 0 1.3vw;
+    padding: 0 20px;
     font-weight: 700;
     text-align: center;
-    border-radius: 1vh;
+    border-radius: 7px;
 }
 @keyframes animate-positive{
     50% { width: 25%; }
@@ -143,15 +143,15 @@
 }
 .modimg{
     height: auto;
-    width: 2.6vw;
+    width: 40px;
     margin: auto;
-    padding-bottom: 1.3vh;
+    padding-bottom: 10px;
 }
 .modinimg{
     height: auto;
-    width: 6.5vw;
+    width: 100px;
     margin: auto;
-    padding-bottom: 1.3vh;
+    padding-bottom: 10px;
 }
 .modtxt{
     color: black;
@@ -159,17 +159,17 @@
 .mdbtn{
     background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795));
     color: #FFFFFF;
-    padding: 0.6vh;
-    margin: 0.6vh;
-    height: 8vh;
+    padding: 5px;
+    margin: 5px;
+    height: 60px;
     text-align: center;
 }
 .mdbtn:hover{
-    box-shadow: 0 1.3vh 4vh -1.06vh rgb(42, 142, 255);
+    box-shadow: 0px 10px 30px -8px rgb(42, 142, 255);
     color: #FFFFFF;
 }
 .certi{
-    height: 6.5vw;
+    height: 100px;
 }
 .certi a{
     top: 50%;
@@ -198,15 +198,15 @@
 }
 .footer{
     background-color: #0253B3;
-    border-radius: 0 0 1.3vh 1.3vh;
-    box-shadow: 0.26vh 0.26vh 0.6vh 0;
-    margin: 0.26vh;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px 0px;
+    margin: 2px;
     color: white;
 }
 .fab{
     color: white;
-    font-size: 4.6vh;
-    padding: 2vh;
+    font-size: 35px;
+    padding: 15px;
 }
 .fa-twitter:hover{
     color: #1DA1F2;
@@ -225,28 +225,28 @@
     color: lightblue;
 }
 .contacts{
-    padding-bottom: 4vh;
+    padding-bottom: 30px;
     text-align: center;
 }
 .mailid{
     text-align: center;
 }
 .quote{
-    border-left: 0.6vh solid #1DA1F2;
-    padding-left: 1.3vh;
+    border-left: 5px solid #1DA1F2;
+    padding-left: 10px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 7em;
     text-align: justify;
-    font-size: 1.3vw;
+    font-size: 20px;
 }
 .copyright{
     text-align: center;
     background-color: #003b75;
-    border-radius: 0 0 1.3vh 1.3vh;
-    padding: 1.3vh;
-    font-size: 1.7vh ;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    font-size: 13px ;
 }
 @media only screen and (max-width:600px){
     *{
@@ -256,22 +256,22 @@
         font-size: 1.2rem;
     }
     .navbar-brand, .designation{
-        font-size: 4vh;
+        font-size: 30px;
     }
     .contacts > p{
-        font-size: 2vh;
+        font-size: 15px;
     }
     .blue-text{
-        font-size: 1.5vh;
+        font-size: 11px;
     }
     .progress-bar > span{
-        font-size: 1.3vh;
+        font-size: 10px;
     }
     .para{
-        font-size: 2vh;
-        line-height: 3.3vh;
+        font-size: 15px;
+        line-height: 25px;
     }
     .quote{
-        font-size: 2.26vh;
+        font-size: 17px;
     }
 }
