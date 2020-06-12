@@ -98,15 +98,15 @@
     padding: 20px;
     box-shadow: 0px 10px 30px -8px rgb(73, 157, 253);
 }
-.explorer{
-    padding: 25px;
-    padding-bottom: 30px;
-}
 .persona{
+    width: 100%;
     display: block;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.explorer{
+    padding-bottom: 30px;
 }
 .progressbar-title{
     font-size: 16px;
