@@ -95,18 +95,20 @@
     background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795));
     color: white;
     border-radius: 0px 20px 0px 20px;
-    padding: 20px;
+    padding: 5vh;
     box-shadow: 0px 10px 30px -8px rgb(73, 157, 253);
 }
 .persona{
     width: 100%;
     display: block;
+    position: relative;
+    top: 5vh;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 .explorer{
-    padding-bottom: 30px;
+    padding: 3vh;
 }
 .progressbar-title{
     font-size: 16px;
@@ -137,6 +139,11 @@
 }
 @keyframes animate-positive{
     50% { width: 25%; }
+}
+#myworks{
+    padding: 5vh;
+    box-shadow: 5px 10px 30px 0 rgba(73, 157, 253, .5);
+    border-radius: 0 5vw;
 }
 .modal-title{
     color: black;
@@ -180,7 +187,7 @@
     text-align: center;
 }
 .collaborate{
-    padding-bottom: 2vw;
+    margin: 10vh 0 5vh;
 }
 .collaborate img{
     padding:2vw;
