@@ -6,6 +6,7 @@
 *{
     scroll-behavior: smooth;
     font-family: 'Gilroy' ;
+    
 }
 .spinner-wrapper {
     position: fixed;
@@ -95,18 +96,20 @@
     background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795));
     color: white;
     border-radius: 0px 20px 0px 20px;
-    padding: 20px;
+    padding: 5vh;
     box-shadow: 0px 10px 30px -8px rgb(73, 157, 253);
 }
 .persona{
     width: 100%;
     display: block;
+    position: relative;
+    top: 5vh;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 .explorer{
-    padding-bottom: 30px;
+    padding: 3vh;
 }
 .progressbar-title{
     font-size: 16px;
@@ -137,6 +140,9 @@
 }
 @keyframes animate-positive{
     50% { width: 25%; }
+}
+#myworks{
+    padding: 5vh;
 }
 .modal-title{
     color: black;
@@ -180,7 +186,7 @@
     text-align: center;
 }
 .collaborate{
-    padding-bottom: 2vw;
+    margin: 10vh 0 5vh;
 }
 .collaborate img{
     padding:2vw;
@@ -209,16 +215,34 @@
     padding: 15px;
 }
 .fa-twitter:hover{
-    color: #1DA1F2;
+    background: linear-gradient( to right,#1DA1F2, #9edaff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-instagram:hover{
-    color: #C13584;
+    background: linear-gradient( to right,#C13584, #ffb7e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-linkedin:hover{
-    color: #2a85b3;
+    background: linear-gradient( to right,#2a85b3, #76d1ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-github:hover{
-    color: #796596;
+    background: linear-gradient( to right,#796596, #c9a6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-hackerrank:hover{
+    background: linear-gradient( to right bottom,#30C463, #a1ffc2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .blue-text:hover{
     text-decoration: none;
