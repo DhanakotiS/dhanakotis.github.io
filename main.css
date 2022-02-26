@@ -142,8 +142,9 @@
     50% { width: 25%; }
 }
 .skill-box{
-    width: 8vw;
+    width: 100px;
     height: 4.5vh;
+    font-size: 15px;
     background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795)); 
     color: white;
     margin: 2vh 1vh 0 0 ;
