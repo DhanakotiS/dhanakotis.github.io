@@ -6,7 +6,6 @@
 *{
     scroll-behavior: smooth;
     font-family: 'Gilroy' ;
-    
 }
 .spinner-wrapper {
     position: fixed;
@@ -110,6 +109,7 @@
 }
 .explorer{
     padding: 3vh;
+    top: 5vh;
 }
 .progressbar-title{
     font-size: 16px;
@@ -141,8 +141,20 @@
 @keyframes animate-positive{
     50% { width: 25%; }
 }
+.skill-box{
+    width: 8vw;
+    height: 4.5vh;
+    background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795)); 
+    color: white;
+    margin: 2vh 1vh 0 0 ;
+    float: left;
+    text-align: center;
+    padding: 1vh;
+    border-radius: 1vh;
+}
 #myworks{
     padding: 5vh;
+    top : 5vh;
 }
 .modal-title{
     color: black;
@@ -298,16 +310,4 @@
     .quote{
         font-size: 17px;
     }
-}
-
-.skill-box{
-    width: 8vw;
-    height: 5vh;
-    background-image: linear-gradient(to bottom right,rgb(2, 71, 155) , rgba(4, 117, 255, 0.795)); 
-    color: white;
-    margin: 2vh 1vh 0 0 ;
-    float: left;
-    text-align: center;
-    padding: 1vh;
-    border-radius: 1vh;
 }
