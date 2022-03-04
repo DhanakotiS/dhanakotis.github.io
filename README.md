@@ -2,4 +2,4 @@
 
 Personal portfolio
 
-[kotidhana.github.io](https://kotidhana.github.io)
+[dhanakotis.github.io](https://dhanakotis.github.io)
