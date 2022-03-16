@@ -1,4 +1,4 @@
-# kotidhana.github.io
+# DhanakotiS.github.io
 
 Personal portfolio
 
